@@ -1,0 +1,9 @@
+POST http://localhost:3000/contact_form.json 
+Content-Type: application/json
+
+{
+  "name": "Julia",
+  "email": "julia@gmail.com",
+  "last_name": "Grimes",
+  "message": "Hello, testing"
+}

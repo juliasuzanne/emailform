@@ -1,0 +1,6 @@
+{
+  id: @form.id,
+  name: @form.name,
+  last_name: @form.last_name,
+  message: @form.message
+}
