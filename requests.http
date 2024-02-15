@@ -5,5 +5,17 @@ Content-Type: application/json
   "name": "Julia",
   "email": "julia@gmail.com",
   "last_name": "Grimes",
-  "message": "Hello, testing"
+  "message": "Local server"
+}
+
+
+####
+POST https://ecrebocpremail.fly.dev/contact_form.json 
+Content-Type: application/json
+
+{
+  "name": "Julia",
+  "email": "julia@gmail.com",
+  "last_name": "Grimes",
+  "message": "Fly io"
 }

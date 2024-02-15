@@ -42,15 +42,15 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   # config.action_mailer.delivery_method = :test
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :user_name => "api",
-    :password => "b41ca0a485d2a36efa52285a45a39743",
-    :address => "live.smtp.mailtrap.io",
-    :host => "live.smtp.mailtrap.io",
-    :port => "587",
-    :authentication => :login,
-  }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :user_name => "api",
+  #   :password => "b41ca0a485d2a36efa52285a45a39743",
+  #   :address => "live.smtp.mailtrap.io",
+  #   :host => "live.smtp.mailtrap.io",
+  #   :port => "587",
+  #   :authentication => :login,
+  # }
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 

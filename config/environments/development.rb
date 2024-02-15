@@ -53,19 +53,19 @@ Rails.application.configure do
   # Highlight code that triggered database queries in logs.
   config.active_record.verbose_query_logs = true
 
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :user_name => "d6e37ffedfa428",
-    :password => "12b2876054659a",
-    :address => "sandbox.smtp.mailtrap.io",
-    :domain => "sandbox.smtp.mailtrap.io",
-    :port => "587",
-    :authentication => :plain,
-  }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :user_name => "d6e37ffedfa428",
+  #   :password => "12b2876054659a",
+  #   :address => "sandbox.smtp.mailtrap.io",
+  #   :domain => "sandbox.smtp.mailtrap.io",
+  #   :port => "587",
+  #   :authentication => :plain,
+  # }
 
-  #   config.action_mailer.delivery_method = :mailtrap
+  # config.action_mailer.delivery_method = :mailtrap
   # config.action_mailer.mailtrap_settings = {
-  #   api_key: ENV.fetch('MAILTRAP_API_KEY')
+  #   api_key: ENV.fetch("b41ca0a485d2a36efa52285a45a39743"),
   # }
 
   # Raises error for missing translations.
