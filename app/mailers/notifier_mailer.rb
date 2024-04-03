@@ -1,11 +1,11 @@
 class NotifierMailer < ApplicationMailer
-  default to: "mike.grimes@ecrebo.com",
-    from: "ecrebocpr@juliasuzannegrimes.com"
+  default to: "sara@growthtalentsolutions.biz",
+    from: "contactform@growthtalentsolutions.biz"
 
   def simple_message(first_name, last_name, email, message)
     mail(
       "reply-to": email_address_with_name(email, "#{first_name} #{last_name}"),
-      subject: "New message from EcreboCPR site",
+      subject: "New contact form message",
       body: message,
     )
   end

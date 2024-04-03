@@ -9,12 +9,22 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :user_name => "api",
-    :password => "b41ca0a485d2a36efa52285a45a39743",
+    :password => "127288e862b9af6b1a17e51f6043f215",
     :address => "live.smtp.mailtrap.io",
     :host => "live.smtp.mailtrap.io",
     :port => "587",
     :authentication => :plain,
   }
+
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :user_name => "c7d498f9d33df8",
+  #   :password => "36d1943d67604d",
+  #   :address => "sandbox.smtp.mailtrap.io",
+  #   :host => "sandbox.smtp.mailtrap.io",
+  #   :port => "2525",
+  #   :authentication => :login,
+  # }
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers

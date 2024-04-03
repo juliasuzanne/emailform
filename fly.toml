@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for ecrebocpremail on 2024-02-15T11:26:22-05:00
+# fly.toml app configuration file generated for gtsemailbackend on 2024-04-03T08:20:18-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'ecrebocpremail'
+app = 'gtsemailbackend'
 primary_region = 'bos'
 console_command = '/rails/bin/rails console'
 
@@ -22,7 +22,3 @@ console_command = '/rails/bin/rails console'
 
 [[vm]]
   size = 'shared-cpu-1x'
-
-[[statics]]
-  guest_path = '/rails/public'
-  url_prefix = '/'
